@@ -85,7 +85,7 @@
 }
 
 .viewall-students th {
-  background-color: #73bbc9;
+  background-color: #196DDC;
   color: white;
 }
 
@@ -100,23 +100,23 @@
 /* DASHBOARD ADMISSION LINK */
 
 .admit-btn {
-  background-color: #33bbc5;
+  background-color: #196DDC;
   border: none;
 }
 
 .admit-btn:hover {
-  background-color: #614bc3;
+  background-color: #316ebd;
   border: none;
 }
 
 /* DASHBOARD EDIT STUDENT */
 
 .admit-btn {
-  background-color: #33bbc5;
+  background-color: #196DDC;
   border: none;
 }
 .admit-btn:hover {
-  background-color: #614bc3;
+  background-color: #1753a3;
   border: none;
 }
 
@@ -208,19 +208,19 @@
 }
 
 .first-comp {
-  background-color: #be6db7;
+  background-color: #1919f1;
   color: #fff;
   border: none;
 }
 
 .second-comp {
-  background-color: #5b8fb9;
+  background-color: #1a8029;
   color: #fff;
   border: none;
 }
 
 .third-comp {
-  background-color: #f48484;
+  background-color: #ed1414;
   color: #fff;
   border: none;
 }

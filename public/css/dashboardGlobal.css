@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #c5dff8;
+  background-color: #f9f9f9;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -31,12 +31,12 @@
 }
 
 .custom-sidebar a.active {
-  background-color: #0b666a;
+  background-color: #0D6EFD;
   color: white;
 }
 
 .custom-sidebar a:hover:not(.active) {
-  background-color: rgba(39, 40, 41, 0.73);
+  background-color: #3c81e8;
   color: white;
 }
 

@@ -8,13 +8,11 @@ const app = express();
 const port = 3000;
 
 // mongoose connection url
-const url =
-  "mongodb+srv://gauravpatil:787898@cluster0.y3isld4.mongodb.net/?retryWrites=true&w=majority";
 
 // Connect to MongoDB
 async function connectToDatabase() {
   try {
-    await mongoose.connect(url, {
+    await mongoose.connect("mongodb+srv://nithindev:uHe@FRF44u7rDs5@cluster0.rxruo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,

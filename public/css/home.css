@@ -1,6 +1,8 @@
 /* Fonts */
 .page-heading {
-  font-family: "Lilita One", cursive;
+  font-family: "Product Sans", sans-serif;
+  color: #00B5EF;
+  font-weight: 700;
 }
 
 .custom-heading {
@@ -12,18 +14,26 @@
 /* Jumbotrons */
 .jumbotron-1 {
   border-radius: 10px;
-  background-image: url("../images/jumbotron_1.jpg");
+  background-image: url("../images/success.jpg");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
+.jumbotron-1{
+  height: 300px;
+}
+
 .jumbotron-2 {
-  background-color: #1d5d9b;
+  background-color: black;
 }
 
 .jumbotron-3 {
-  background-color: #c5dff8;
+  /* background-color: #1A73E8; */
+  background-size: cover;
+  background-blend-mode: hue;
+  background-position: center;
+  background-color: black;
 }
 
 .jumbotron-2 h2,
@@ -31,6 +41,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: bold;
+  color: #fafafa;
 }
 
 .jumbotron-2 p,
@@ -47,12 +58,12 @@
 
 .jumbotron-3 h2,
 .jumbotron-3 p {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /* Custom Component */
 .custom-comp {
-  background-color: #1b6b93;
+  background-color: #1A73E8;
 }
 
 .custom-comp p,
@@ -67,7 +78,19 @@
 }
 
 .custom-comp h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: bold;
+  color: #ffffff  ;
 }
+ 
+.jumbotron-2 a {
+  background-color: white;
+  color: black;
+}
+
+.jumbotron-3 a {
+  background-color: white;
+  color: black;
+}
+

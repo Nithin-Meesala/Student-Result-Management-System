@@ -2,9 +2,9 @@
 .navbar-text {
   margin: 0;
   padding: 0;
-  color: #c5dff8;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  color: #080808;
+  font-family: "Product Sans", sans-serif;
+  font-weight: 400;
   transition: color 0.3s;
 }
 
@@ -24,9 +24,9 @@ img {
 }
 
 .staffloginbtn {
-  background-color: #1d5d9b;
+  background-color: #1A73E8;
   color: white;
-  border-color: #1d5d9b;
+  border-color: #1A73E8;
 }
 
 .signupbtn {
@@ -48,10 +48,10 @@ img {
 
 /* Navbar Customization */
 .navbar-custom {
-  background-color: #164b60;
+  background-color: #fafafa;
 }
 
 /* Navbar Text Color on Hover */
 .nav-link:hover .navbar-text {
-  color: #4f709c;
+  color: #00B5EE;
 }
